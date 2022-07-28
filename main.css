@@ -49,17 +49,6 @@ button:hover{
 	animation-duration: 2s;
 	animation-iteration-count: 1 ;
 }
-@keyframes fadeInRight{
-	0% {
-	opacity: 1;
-	width: 0px;
-	}
-	
-	100% {
-	opacity: 0;
-	width: 100%;
-}
-}
 
 .about__image {
 	width: 500px;
@@ -114,17 +103,6 @@ button:hover{
 	animation-duration: 2s;
 	animation-iteration-count: 1 ;
 }
-@keyframes fadeInLeft {
-	0% {
-	width: 0px;
-	opacity: 1;
-	}
-	
-	100% {
-	opacity: 0;
-	width: 100%;
-	}
-	}
 
 .form__container {
 	width: 550px;
