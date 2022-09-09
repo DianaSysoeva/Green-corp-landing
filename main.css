@@ -43,8 +43,13 @@ button:hover{
 	box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
 	transition: background-color 0.3s ease-in ;
 }
-
-.about__images{
+.orb-canvas {
+	position: absolute;
+   top: 0;
+   height: 100%;
+   right: 0;
+}
+.about__images {
 	animation: fadeInRight;
 	animation-duration: 2s;
 	animation-iteration-count: 1 ;
@@ -70,6 +75,7 @@ button:hover{
 	}
 }
 .about {
+
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -78,6 +84,7 @@ button:hover{
 	background: url('img/back.png') no-repeat;
 	background-position: center;
 	background-size: cover;
+	position: relative;
 }
 
 .about h1 {
