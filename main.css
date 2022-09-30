@@ -56,6 +56,7 @@ button:hover{
    top: 0;
    height: 100%;
    right: 0;
+	
 }
 .about__images {
 	animation: fadeInRight;
@@ -111,6 +112,7 @@ button:hover{
 	padding: 20px 25px;
 	border-radius: 20px;
 	margin-top: 20px;
+	position: relative;
 }
 
 .about__info {
