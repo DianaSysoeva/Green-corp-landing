@@ -8,11 +8,18 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	padding: 20px;
-	position: sticky;
-	top: 0;
-	background: white;
+	position: fixed;
+	left: 0;
+	right: 0;
+	background: none;
 	z-index: 1;
+	transition: background-color, box-shadow 0.25s ease ;
 
+}
+
+.header__scrolled {
+background-color: white;
+box-shadow: 0 12px 34px -11px rgb(65 62 101 / 10%);
 }
 .header__logo {
 	height: 30px;
@@ -80,7 +87,7 @@ button:hover{
 	align-items: center;
 	justify-content: space-around;
 	padding-bottom: 115px;
-	padding-top: 115px;
+	padding-top: 200px;
 	background: url('img/back.png') no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -104,6 +111,7 @@ button:hover{
 	border-radius: 20px;
 	margin-top: 20px;
 }
+
 .about__info {
 	max-width: 550px;
 	animation: fadeInLeft;
@@ -517,4 +525,3 @@ footer {
 .footer__container {
 	flex-direction: column;
 }
-
